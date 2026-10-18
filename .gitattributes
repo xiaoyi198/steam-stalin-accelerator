@@ -1,0 +1,13 @@
+# 统一换行符，避免在 Windows 上 checkout 出来的 .ps1/.cmd 变成 LF 而跑不动
+* text=auto
+
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+*.md   text eol=lf
+LICENSE text eol=lf
+
+# 二进制产物（如果有）
+*.png binary
+*.zip binary
