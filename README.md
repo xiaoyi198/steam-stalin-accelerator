@@ -74,6 +74,21 @@ Steam 自己在 `content_log.txt` 里写下了每个节点的**真实平均吞�
 
 ---
 
+## 下载
+
+```powershell
+git clone https://github.com/xiaoyi198/steam-stalin-accelerator.git
+```
+
+或者直接把这两个文件下到**同一个文件夹**里：
+
+- [`steam-node-picker.ps1`](https://github.com/xiaoyi198/steam-stalin-accelerator/raw/main/steam-node-picker.ps1)
+- [`一键部署自动注入.cmd`](https://github.com/xiaoyi198/steam-stalin-accelerator/raw/main/%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E8%87%AA%E5%8A%A8%E6%B3%A8%E5%85%A5.cmd)
+
+> 下载的 `.ps1` 已经带 UTF-8 BOM，别用会剥掉 BOM 的编辑器重存（见文末「两个真实的坑」）。
+
+---
+
 ## 安装
 
 ### 一键部署（推荐）
